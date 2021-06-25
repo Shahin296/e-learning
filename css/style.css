@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+ #navbar-container{
+    margin-bottom: 60px;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 8px;
+}
+
+.sign-up-button{
+    padding: 8px 20px;
+    border: none;
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 30px;
+    
+}
+
+.landing-page{
+    background-color: #F0FFF0;
+    min-height: 576px;
+}
+
+.landing-page p{
+  line-height: 1.7;
+}
+.landing-page h1{
+    font-size: 42px;
+}
+
+.coloring-text{
+    color:#21B573 ;
+}
+
+.landing-page h6{
+   color: #FD511A;
+
+}
+
+.brand-img-logo{
+    width: 120px;
+}
+
+@media (max-width:768px){
+    .landing-page .left-side-img{
+        margin-top: 50px;
+    }
+}
+
+
+/* book card section */
+
+
+
+#Book img{
+    width: 70px;
+}
+
+#Book h5{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.card-book{
+    margin: 0 auto;
+    height: 270px;
+    width: 270px;
+    background-color: #F8FFFB;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card-book-unique{
+    background-color: #Fff;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+
+/* online courses */
+h2{
+    font-size: 36px;
+}
+
+.footer-course-body{
+    margin-top: 20px;
+}
+.footer-course-body img{
+  margin-right: 5px;
+}
+#online-course .card{
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 22px lightgray;
+}
+
+@media (max-width:1200px){
+    #online-course .card{
+        margin-bottom: 50px;
+    }
+}
+.margin-bottom{
+    margin-bottom: 70px;
+}
+#testimonial img{
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+@media (max-width:992px){
+    .testimontial-content{
+        margin-top: 30px;
+    }
+    #testimonial img{
+        margin: 0 auto;
+
+    }
+}
+
+
+/* footer section */
+
+p{
+    line-height: 30px;
+}
+
+#footer{
+    min-height: 350px;
+    background-color:  #282531;
+    margin-top: 100px;
+    color: #ffff;
+    
+}
+
+.footer-content{
+    padding-top: 60px;
+}
+
+.footer-content p{
+    color: lightgray;
+}
+
+.course-list li{
+    list-style: none;
+    color: lightgray;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.footer p{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 70px;
+    color: gray;
+    font-size: 13px;
+    margin: 0;
+}
+
